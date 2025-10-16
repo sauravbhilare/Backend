@@ -1,0 +1,38 @@
+In the previous lecture, we discussed on APIs, API Methods, Static and Dynamic API and Environment Variables
+and how to use them.
+
+API (Application Programming Interface):
+An API allows the frontend and backend to communicate with each other.
+
+API Methods:
+
+GET: Was used to fetch or retrieve data.
+
+POST: Was used to send or submit data from the frontend to the backend.
+
+PUT: Was used to update or replace existing data with new data.
+
+PATCH: Was used to partially update existing data.
+
+DELETE: Was used to remove or delete specific data.
+
+Static vs Dynamic API:
+
+A Static API always gave the same data every time it was called.
+
+A Dynamic API provided different data depending on the request.
+
+Environment Variables:
+We also learned about environment variables, which are values set outside the application code.
+They were used to configure the application without changing the source code.
+These variables were accessed during runtime to adjust the application’s behavior — for example, setting the port number, database credentials, or API keys.
+
+Steps to Use Environment Variables:
+
+Installed dotenv.
+
+Created a .env file and added the environment variables.
+
+Imported and configured dotenv in the project.
+
+Used the environment variables in the code through process.env.variable_name
