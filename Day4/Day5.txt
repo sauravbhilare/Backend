@@ -1,0 +1,10 @@
+In yesterday’s lecture, we discussed the PUT, PATCH, and DELETE methods — their uses and implementation.
+
+PUT Method:
+The PUT method is used to replace the existing data with new data. It updates the entire record at once.
+
+PATCH Method:
+The PATCH method is used to partially update existing data. Unlike PUT, it only changes specific fields instead of replacing the whole record.
+
+DELETE Method:
+The DELETE method is used to remove existing data from the database or server.
