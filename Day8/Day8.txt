@@ -1,0 +1,14 @@
+In the previous lecture, we discussed MongoDB databases and collections.
+
+We learned that collections and schemas are written inside the Model folder of our project.
+When creating a schema, it is mandatory to mention the data type for each field.
+If a field is required or must be unique, we can specify it using:
+
+required: true
+unique: true
+
+
+We also discussed how to write a schema and store data in a MongoDB database.
+By using the find() method, we can check for duplicate entries and handle duplicate entry errors.
+
+Finally, we learned how to use the data from the database for login functionality.
